@@ -1,0 +1,58 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2020.12.27943
+
+# File Generated:     Oct 7 2021 21:14:57
+
+# Family & Device:    iCE40HX1K
+
+# Package:            TQ144
+
+# ##############################################################################
+
+###MergeFF List 8
+set_io_ff data[0] -in ON
+set_io_ff data[1] -in ON
+set_io_ff data[2] -in ON
+set_io_ff data[3] -in ON
+set_io_ff data[4] -in ON
+set_io_ff data[5] -in ON
+set_io_ff data[6] -in ON
+set_io_ff data[7] -in ON
+
+###IOSet List 32
+set_io addr[0] 44
+set_io addr[1] 117
+set_io addr[10] 61
+set_io addr[11] 56
+set_io addr[12] 119
+set_io addr[2] 118
+set_io addr[3] 112
+set_io addr[4] 113
+set_io addr[5] 114
+set_io addr[6] 115
+set_io addr[7] 116
+set_io addr[8] 47
+set_io addr[9] 48
+set_io data[0] 79
+set_io data[1] 80
+set_io data[2] 81
+set_io data[3] 78
+set_io data[4] 91
+set_io data[5] 90
+set_io data[6] 88
+set_io data[7] 87
+set_io led[0] 99
+set_io led[1] 98
+set_io led[2] 97
+set_io nce 62 -pullup yes
+set_io noe 60 -pullup yes
+set_io nwe 45 -pullup yes
+set_io rst_n 10 -pullup yes
+set_io spi_clk_i 9
+set_io spi_miso 7
+set_io spi_mosi 8
+set_io spi_ncs_i 4
+
